@@ -1,0 +1,29 @@
+.deckStats {
+      min-height: calc(33.3333333333333333vh - 300px);
+    text-shadow:
+     #000000 1px 0 10px,
+     #000000 1px 0 20px,
+     #000000 1px 0 30px,
+     #000000 1px 0 5px,
+     #000000 1px 0 4px,
+     #000000 1px 0 3px,
+     #000000 1px 0 2px;
+
+    .collomns {
+        min-width: 200px;
+        display: flex;
+
+        .stat {
+            margin: 5px 0 0 10px;
+            display: flex;
+            align-items: center;
+            vertical-align: middle;
+            width: 100px;
+
+            .title {
+                margin-left: 10px;
+                color: white;
+            }
+        }
+    }
+}

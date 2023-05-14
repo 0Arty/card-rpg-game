@@ -1,0 +1,47 @@
+.box {
+    background-color: red;
+    min-height: 100px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000bd;
+    writing-mode: sideways-lr;
+    text-orientation: mixed;
+    border-radius: 0 0 0 10px ;
+    transition: 0.4s;
+    &:not(:last-child){
+        margin-bottom: 10px;
+        
+    }
+    &:hover{
+        transition: 0.4s;
+        color: rgb(255, 153, 0);
+        text-shadow:
+            0 0 1px #f0b864,
+            0 0 2px #f0b864,
+            0 0 5px #f0b864,
+            0 0 11px #701919,
+            0 0 20px #701919,
+            0 0 30px #701919,
+            0 0 55px #701919,
+            0 0 80px #701919;
+    
+    }
+
+    a {
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        transition: 0.4s;
+        &:hover{
+            scale: 1.2;
+            transition: 0.4s;
+        }
+        
+    }
+
+
+}
+

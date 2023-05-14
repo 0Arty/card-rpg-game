@@ -1,0 +1,36 @@
+.box{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://phonoteka.org/uploads/posts/2021-06/1623216403_7-phonoteka_org-p-tyomnoe-derevo-tekstura-doski-besshovnaya-9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+    .resourses{
+        width: 100%;
+        height: 50px;
+    }
+    .wrapper{
+        width: 100%;
+        height: calc( 100% - 50px);
+        display: flex;
+        
+        .links{
+            width: 40px;
+            height: 100%;
+        }
+        .offers{
+            width: calc( 100% - 40px);
+            height: 100%;
+        }
+    }
+}   
+
+
+// <div className={styles.resourses}>
+
+// </div>
+// <div className={styles.wrapper}>
+//     <div className={styles.links}>
+
+//     </div>
+//     <div className={styles.offers}>

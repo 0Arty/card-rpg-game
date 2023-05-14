@@ -1,0 +1,37 @@
+.box {
+    height: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 200px;
+
+    :hover {
+        scale: 1.5;
+        transition: 0.5s;
+        color: rgb(255, 153, 0);
+        text-shadow:
+            0 0 1px #f0b864,
+            0 0 2px #f0b864,
+            0 0 5px #f0b864,
+            0 0 11px #701919,
+            0 0 20px #701919,
+            0 0 30px #701919,
+            0 0 55px #701919,
+            0 0 80px #701919;
+    }
+
+
+    a {
+        transition: 1s;
+        color: antiquewhite;
+        text-decoration: none;
+        font-size: 45px;
+        margin-top: 20px;
+
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+
+}

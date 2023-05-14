@@ -1,0 +1,86 @@
+.title {
+    margin-top: 30px;
+    font-size: 40px;
+    color: rgb(255, 153, 0);
+    text-shadow:
+        0 0 1px #f0b864,
+        0 0 2px #f0b864,
+        0 0 5px #f0b864,
+        0 0 11px #701919,
+        0 0 20px #701919,
+
+}
+
+.form {
+
+
+    .input {
+        width: 400px;
+        color: white;
+        border: 1px solid rgba(0, 0, 0, 0.247);
+        background-color: rgba(0, 0, 0, 0.212);
+        padding-left: 20px;
+        font-size: 20px;
+        transition: 0.3s;
+        &:active, &:hover, &:focus  {
+            border-color: #f0b864;
+            outline: 0;
+            outline-offset: 0;
+            transition: 0.3s;
+        }
+
+
+    }
+
+    .password {}
+
+    .userName {}
+
+    .registrationBody {
+        margin-top: 50px;
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .registerText {
+        font-size: 25px;
+        color: white;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .link{
+        color: white;
+        margin-top: 10px;
+        text-decoration:underline;
+        transition: 0.4s;
+        &:hover{
+            scale: 1.2;
+            transition: 0.4s;
+            cursor: pointer;
+            color: #f0b864;
+        }
+    }
+
+    .submitBTN{
+        margin-top: 20px;
+        width: 160px;
+        height: 30px;
+        transition: 0.4s;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        &:active, &:hover, &:focus {
+            border-radius: 5px;
+            scale: 1.2;
+            cursor: pointer;
+            transition: 0.4s;
+            color: #bd7811;
+            outline: 0;
+            outline-offset: 0;
+        }
+
+    }
+}

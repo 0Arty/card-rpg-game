@@ -1,0 +1,63 @@
+.box{
+    width: 170px;  
+    height: 270px;
+    background-color: #00000079;
+    float: left;
+    margin: 10px;
+    border-radius: 4px;
+    ::after{
+        clear: left;
+    }
+    .content{
+        margin: 10px 10px 0 10px;
+        width: 150px;
+        height: 200px;
+        background-color: #cad2c5;
+        border-radius: 4px 4px  0 0 ;
+    }
+    .buy{
+        width: 100%;
+        height: calc( 270px - 200px);
+        background-color:  #00000079;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius:  0 0 4px 4px;
+        .price{
+            font-size: 20px;
+            color: white;
+        }
+
+
+
+        .btn{
+            background-color: #6d636379; /* Green */
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 2px;
+            transition: 0.7s;
+            &:hover{
+                transition: 0.7s;
+                scale: 1.2;
+                cursor: pointer;
+                color: rgb(255, 153, 0);
+                text-shadow:
+                    0 0 1px #f0b864,
+                    0 0 2px #f0b864,
+                    0 0 5px #f0b864,
+                    0 0 11px #701919,
+                    0 0 20px #701919,
+                    0 0 30px #701919,
+                    0 0 55px #701919,
+                    0 0 80px #701919;
+            
+            }
+        }
+    }
+
+}

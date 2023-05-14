@@ -1,0 +1,32 @@
+.box{
+
+
+    width: 500px;
+    height: 100px;
+    margin: 10px 0 0 10px;
+    display: flex;
+    
+    .icon{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: white;
+
+    }
+    .profileInfo{
+        margin-left: 10px ;
+        color : rgb(255, 153, 0)  ;
+        text-shadow:
+        0 0 1px #f0b864,
+        0 0 2px #f0b864,
+        0 0 5px #f0b864,
+        0 0 11px #701919,
+        0 0 20px #701919,
+        0 0 30px #701919,
+        0 0 55px #701919,
+        0 0 80px #701919;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Acme', sans-serif;
+    }
+}

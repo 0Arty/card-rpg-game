@@ -1,0 +1,58 @@
+.cardBox {
+    width: 150px;
+    height: 200px;
+    color: #CAB19B;
+    box-sizing: border-box;
+
+    .border {
+        width: 100%;
+        height: 100%;
+
+        .cardFont {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            .stats {
+
+                .nameBox {
+                    display: flex;
+                    flex-direction: column;
+
+                    .name {
+                        color: white;
+                        text-shadow:
+                    0 0 1px #f0b864,
+                    0 0 2px #f0b864,
+                    0 0 5px #f0b864,
+                    0 0 11px #701919,
+                    0 0 20px #701919,
+                    0 0 30px #701919,
+                    0 0 55px #701919,
+                    0 0 80px #701919;
+            
+            
+                    }
+                }
+
+
+
+                .characters {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                height: 100%;
+
+                padding: 5px 0 0 5px;
+                background: rgb(2, 0, 36);
+                background: linear-gradient(90deg, rgba(2, 0, 36, 0.8519607672170431) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0) 100%);
+
+            }
+        }
+    }
+}

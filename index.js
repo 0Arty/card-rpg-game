@@ -6,8 +6,6 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-
-
 mongoose
     .connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cardrpg.zyyalre.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`,)
     .then(() => console.log('DB OK'))
